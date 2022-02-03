@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ButtonScript : MonoBehaviour
 {
-    private float musicVolume;
+    [HideInInspector]
+    public float musicVolume;
 
     // Start is called before the first frame update
     void Start()

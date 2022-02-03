@@ -10,7 +10,7 @@ public class LevelManagerScript : MonoBehaviour
     void Start()
     {
         Button.GetComponent<Button>().Select();
-        PlaySound();
+        //PlaySound();
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class LevelManagerScript : MonoBehaviour
     {
         
     }
-    void PlaySound()
+    /*void PlaySound()
     {
         if (Input.GetKey("up") || Input.GetKey("w"))
         {
@@ -28,5 +28,5 @@ public class LevelManagerScript : MonoBehaviour
         {
            // FindObjectOfType<AudioManager>().Play("select");
         }
-    }
+    }*/
 }
